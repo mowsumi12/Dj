@@ -34,6 +34,6 @@ module.exports.run = async ({ api, event, args }) => {
 		var text = '';
 		retrieve[0].forEach(item => (item[0]) ? text += item[0] : '');
 		var fromLang = (retrieve[2] === retrieve[8][0][0]) ? retrieve[2] : retrieve[8][0][0]
-		api.sendMessage(`${text}\n\n━━━[𝗡𝗔𝗭𝗥𝗨𝗟 𝗕𝗢𝗧]━━━➣`, event.threadID, event.messageID);
+		api.sendMessage(`${text}`, event.threadID, event.messageID);
 	});
                                     }
