@@ -2,7 +2,7 @@ const axios = require("axios");
 
 module.exports = {
   config: {
-    name: "বট",
+    name: "nazrul",
     version: "1.0",
     credit: "Nazrul",
     prefix: 'awto',
