@@ -20,20 +20,6 @@ if ( event.body.indexOf("😀")==0 && !bot.includes(event.senderID))  {
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("😀", event.messageID, (err) => {}, true)
    };
-if ( event.body.indexOf("😺")==0 && !bot.includes(event.senderID))  {
-    var msg = {
-        body: ""
-      }
-      api.sendMessage(msg, threadID, messageID);
-    api.setMessageReaction("😺", event.messageID, (err) => {}, true)
-   };
-if ( event.body.indexOf("🙄")==0 && !bot.includes(event.senderID))  {
-    var msg = {
-        body: ""
-      }
-      api.sendMessage(msg, threadID, messageID);
-    api.setMessageReaction("😸", event.messageID, (err) => {}, true)
-   };
 if ( event.body.indexOf("😹")==0 && !bot.includes(event.senderID))  {
     var msg = {
         body: ""
@@ -48,33 +34,12 @@ if ( event.body.indexOf("😼")==0 && !bot.includes(event.senderID))  {
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("😼", event.messageID, (err) => {}, true)
    };
-if ( event.body.indexOf("😽")==0 && !bot.includes(event.senderID))  {
-    var msg = {
-        body: ""
-      }
-      api.sendMessage(msg, threadID, messageID);
-    api.setMessageReaction("😽", event.messageID, (err) => {}, true)
-   };
 if ( event.body.indexOf("🙀")==0 && !bot.includes(event.senderID))  {
     var msg = {
         body: ""
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("🙀", event.messageID, (err) => {}, true)
-   };
-if ( event.body.indexOf("😿")==0 && !bot.includes(event.senderID))  {
-    var msg = {
-        body: ""
-      }
-      api.sendMessage(msg, threadID, messageID);
-    api.setMessageReaction("😿", event.messageID, (err) => {}, true)
-   };
-if ( event.body.indexOf("😾")==0 && !bot.includes(event.senderID))  {
-    var msg = {
-        body: ""
-      }
-      api.sendMessage(msg, threadID, messageID);
-    api.setMessageReaction("😾", event.messageID, (err) => {}, true)
    };
 if ( event.body.indexOf("riya")==0 && !bot.includes(event.senderID))  {
     var msg = {
