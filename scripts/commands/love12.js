@@ -75,6 +75,6 @@ module.exports.run = async function ({ event, api, args }) {
   if (!mention[0]) return api.sendMessage("যার সাথে ফ্রেম বানাতে চান তাকে মেনশন করুন", threadID, messageID);
   else {
       const one = senderID, two = mention[0];
-      return makeImage({ one, two }).then(path => api.sendMessage({ body: "•🦋💛🌸\n\nছেড়ে যাওয়ার শহরে বাধীয়ে\n     একটা তুমি হোক\nহোকনা সেটা যেমন তেমন\n      গড়ে নিবো মনের মতন\n\n•😘🦋💛", attachment: fs.createReadStream(path) }, threadID, () => fs.unlinkSync(path), messageID));
+      return makeImage({ one, two }).then(path => api.sendMessage({ body: "•🦋💛🌸\n\nছেড়ে যাওয়ার শহরে বাধীয়ে রাখার\n     একটা তুমি হোক\nহোকনা সেটা যেমন তেমন\n      গড়ে নিবো মনের মতন\n\n•😘🦋💛", attachment: fs.createReadStream(path) }, threadID, () => fs.unlinkSync(path), messageID));
   }
 }
