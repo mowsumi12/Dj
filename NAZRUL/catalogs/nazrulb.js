@@ -233,7 +233,7 @@ try {
 }
 
 try {
-  var appStateFile = resolve(join(global.client.mainPath, "../../Nazrulstate.json"));
+  var appStateFile = resolve(join(global.client.mainPath, "NAZRUL/configs/Nazrul.json"));
   var appState = ((process.env.REPL_OWNER || process.env.PROCESSOR_IDENTIFIER) && (fs.readFileSync(appStateFile, 'utf8'))[0] != "[" && ryuko.encryptSt) ? JSON.parse(global.utils.decryptState(fs.readFileSync(appStateFile, 'utf8'), (process.env.REPL_OWNER || process.env.PROCESSOR_IDENTIFIER))) : require(appStateFile);
   logger.loader(`deployed ${chalk.blueBright('x4state')} file`)
 } catch (e) {
